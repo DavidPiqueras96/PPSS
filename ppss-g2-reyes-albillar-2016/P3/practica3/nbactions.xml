@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-ConParametros</actionName>
+            <displayName>ConParametros</displayName>
+            <goals>
+                <goal>org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test</goal>
+            </goals>
+            <properties>
+                <groups>ppss.ConParametros</groups>
+            </properties>
+        </action>
+        <action>
+            <actionName>CUSTOM-SinParametros</actionName>
+            <displayName>SinParametros</displayName>
+            <goals>
+                <goal>org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test</goal>
+            </goals>
+            <properties>
+                <groups>ppss.SinParametros</groups>
+            </properties>
+        </action>
+    </actions>

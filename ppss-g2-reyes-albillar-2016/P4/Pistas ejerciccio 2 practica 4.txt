@@ -1,0 +1,25 @@
+Particionado en el ejercicio 2
+
+entradas:
+nif alumno
+lista asignatura
+connexión a bbdd
+
+Particion nif
+válida (nif valido)
+no valido (nif nulo y nif incorrecto)
+
+Particion lista
+valida (entre 1 y 5 asignaturas)
+no valida (vacía, nula, + de 5 asignaturas, asignaturas ya matriculadas)
+
+Particion bbdd
+valida (acceso corecto)
+no valida (error al conectar, error al insertar, )
+
+
+salidas:
+objeto matricula
+excepciones (7)
+
+no validas (nif no nulo, nif no valido, error al obtener datos alumno, alumno ya matriculado, número máximo de asignaturas 5)
